@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ram Mandloi - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Rajdhani', sans-serif;
+    }
+    body {
+      background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #00adb5;
+      box-shadow: 0 0 20px rgba(0, 173, 181, 0.5);
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #00adb5;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #eeeeee;
+      padding: 0.5rem 1rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #00adb5;
+      transform: scale(1.1);
+    }
+    main {
+      padding: 3rem 2rem;
+    }
+    .intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .content {
+      flex: 1 1 500px;
+      padding-right: 2rem;
+    }
+    .content h1 {
+      font-size: 3rem;
+      color: #00adb5;
+    }
+    .content h2 {
+      font-size: 1.5rem;
+      color: #eeeeee;
+      margin: 0.5rem 0 1rem;
+    }
+    .content h3 {
+      margin-top: 1.5rem;
+      color: #eeeeee;
+    }
+    .content p {
+      color: #cccccc;
+      margin-bottom: 1rem;
+    }
+    .resume-btn {
+      display: inline-block;
+      background-color: #00adb5;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      color: #0f2027;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      box-shadow: 0 0 15px #00adb5;
+      transition: background 0.3s;
+    }
+    .resume-btn:hover {
+      background-color: #00d6e4;
+    }
+    .skills ul {
+      list-style: square;
+      margin-left: 1rem;
+      color: #ffffff;
+    }
+    .social a {
+      display: inline-block;
+      margin: 0.5rem 1rem 0 0;
+      text-decoration: none;
+      font-size: 1.8rem;
+      color: #00adb5;
+      transition: transform 0.3s ease;
+    }
+    .social a:hover {
+      transform: scale(1.2);
+    }
+    .image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px rgba(0, 173, 181, 0.6);
+    }
+    @media (max-width: 768px) {
+      .intro {
+        flex-direction: column;
+        text-align: center;
+      }
+      .content {
+        padding-right: 0;
+      }
+      .social a {
+        margin: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">RAM MANDLOI</div>
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">EDUCATION</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">CERTIFICATES</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="content">
+        <h1>Ram Mandloi</h1>
+        <h2>B.Tech CST Student, Sage University Indore</h2>
+        <h3>Career Objective</h3>
+        <p>
+          Highly motivated and focused B.Tech CST student proficient in Python, Java, C++, and DSA. Seeking real-world experience in tech to apply and strengthen programming skills.
+        </p>
+        <a class="resume-btn" href="#" download><i class="fa-solid fa-download"></i> Download Resume</a>
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>Python, Java, C++, DSA</li>
+          </ul>
+        </div>
+        <div class="social">
+          <a href="https://www.instagram.com/say_ram.m" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com/@xtrex.editzs" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/ram-mandloi-1b80b1347" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://wa.me/9343223908" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="profile.png" alt="Ram Mandloi illustration">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
